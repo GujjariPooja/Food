@@ -1,0 +1,517 @@
+body {
+    background-color: pink;
+    margin: auto;
+}
+header{
+    height:50px;
+    /*border: 5px solid green;*/
+    background-color: #5a172a;
+
+}
+#brand {
+    float: left;
+    font-size: 25px;
+    color: white;
+    margin: 1%;
+}
+
+#social{
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    
+}
+
+.socialmedia{
+    display:inline-block;
+    height: 30px;
+    
+}
+
+#secondPage {
+    width: 85%;
+    margin-left: 7.5%;
+   /* border: 2px solid green;
+    height: 600px;*/
+    margin-top: 2%;
+    display: flex;
+    
+}
+
+.filters {
+    height: 500px;
+    width: 20%;
+    border: 3px solid gray;
+    margin-top: 4%;
+    
+    
+}
+
+
+
+#cuisine {
+    font-size: 20px;
+    color: #5a172a;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+label {
+    display: block;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: black;
+    
+}
+
+.cost {
+    font-size: 20px;
+    color: #5a172a;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.restContent {
+    /*height : 570px;*/
+    width: 70%;
+    /*border: 2px solid yellow;*/
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.compOne {
+    /*border: 2px solid orange;*/
+    height: 280px;
+    display: flex;
+    background-color: pink;
+    box-shadow: 10px 10px 10px gray;
+
+}
+
+.picone {
+    /*border: 2px solid red;*/
+    height: 200px;
+    width: 80%;
+    margin: 2%;
+}
+
+.picone img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.cafe {
+    height : 100%;
+    width: 100%;
+
+}
+
+#amacafe {
+    font-size: 20px;
+    color: steelblue;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+#house {
+    font-size: 15px;
+    color: purple;
+    margin-top: 5%;
+   
+}
+
+#average {
+    font-size: 15px;
+    color: purple;
+    margin-top: 1% ;
+    
+}
+
+#money {
+    font-size: 15px;
+    color: purple;
+    margin-top: 1% ;
+}
+
+.lunch {
+    display: flex;
+    margin-top: 2%;
+}
+
+#lunchtext {
+    border: 2px solid steelblue;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 20%;
+    font-size: 15px;
+    color: white;
+    background-color: steelblue;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#nighttext {
+    border: 2px solid palevioletred;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 20%;
+    font-size: 15px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.indian {
+    display: flex;
+    margin-top: 2%;
+}
+
+#north {
+    border: 2px solid steelblue;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 28%;
+    font-size: 15px;
+    color: white;
+    background-color: steelblue;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#china {
+    border: 2px solid palevioletred;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 20%;
+    font-size: 15px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.comptwo {
+    /*border: 2px solid orange;*/
+    height: 283px;
+    display: flex;
+    background-color: pink;
+    box-shadow: 10px 10px 10px gray;
+    margin-top: 3%;
+
+}
+
+.pictwo {
+    /*border: 2px solid red;*/
+    height: 200px;
+    width: 80%;
+    margin: 2%;
+}
+
+.pictwo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.cafesnack {
+    height : 100%;
+    width: 100%;
+
+}
+
+#chandni {
+    font-size: 20px;
+    color: steelblue;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+#jeevan {
+    font-size: 15px;
+    color: purple;
+    margin-top: 5%;
+   
+}
+
+#poor {
+    font-size: 15px;
+    color: purple;
+    margin-top: 1% ;
+    
+}
+
+#rupees {
+    font-size: 15px;
+    color: purple;
+    margin-top: 1% ;
+}
+
+.snacks {
+    display: flex;
+    margin-top: 2%;
+}
+
+#snacktext {
+    border: 2px solid steelblue;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 20%;
+    font-size: 15px;
+    color: white;
+    background-color: steelblue;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#lunchtextt {
+    border: 2px solid palevioletred;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 20%;
+    font-size: 15px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.indians {
+    display: flex;
+    margin-top: 2%;
+}
+
+#norths {
+    border: 2px solid steelblue;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 30%;
+    font-size: 15px;
+    color: white;
+    background-color: steelblue;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#south {
+    border: 2px solid palevioletred;
+    text-align: center;
+    margin-right: 5%;
+    padding: 1%;
+    width: 30%;
+    font-size: 15px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+footer{
+    /*height: 120px;
+    border: 2px solid pink; */
+    background-color: #5a172a;
+}
+
+.footText {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.list {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+
+    
+}
+ul{
+    list-style-type: none;
+}
+
+.border {
+    border: none;
+}
+#mine {
+    text-align: center;
+}
+.hello {
+    display: inline-block;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 1235px) {
+    body {
+        background-color: pink;
+    }
+    #amacafe {
+        margin-top: 7%;
+    }
+    #chandni {
+        margin-top: 7%;
+    } 
+    #nighttext {
+        width: 25%;
+    }
+    #north {
+        width: 35%;
+    }
+    #china {
+        width : 25%;
+    }
+    #norths {
+        width: 35%;
+    }
+    #south {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+    
+    #amacafe {
+        margin-top: 8%;
+    }
+    #chandni {
+        margin-top: 9%;
+    } 
+    #nighttext {
+        width: 30%;
+    }
+    #north {
+        width: 35%;
+    }
+    #china {
+        width : 30%;
+    }
+    #norths {
+        width: 35%;
+    }
+    #south {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    body {
+        background-color: lightgray;
+    }
+    #amacafe {
+        margin-top: 8%;
+    }
+    #chandni {
+        margin-top: 9%;
+    } 
+    #snacktext {
+        width: 30%;
+    }
+    #nighttext {
+        width: 30%;
+    }
+    #north {
+        width: 40%;
+    }
+    #china {
+        width : 30%;
+    }
+    #norths {
+        width: 40%;
+    }
+    #south {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 789px) {
+    body {
+        background-color: lightcyan;
+    }
+    #amacafe {
+        margin-top: 8%;
+    }
+    #chandni {
+        margin-top: 9%;
+    } 
+    #nighttext {
+        width: 35%;
+    }
+    #north {
+        width: 45%;
+    }
+    #china {
+        width : 40%;
+    }
+    #norths {
+        width: 50%;
+    }
+    #south {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    body {
+        background-color: lightgrey;
+    }
+    #amacafe {
+        margin-top: 8%;
+    }
+    #chandni {
+        margin-top: 9%;
+        width: 100%;
+    } 
+    #lunchtextt {
+        width: 40%;
+    }
+    #lunchtext {
+        width: 35%;
+    }
+    #snacktext {
+        width: 40%;
+    }
+    #nighttext {
+        width: 50%;
+    }
+    #north {
+        width: 45%;
+    }
+    #china {
+        width : 45%;
+    }
+    #norths {
+        width: 50%;
+    }
+    #south {
+        width: 50%;
+    }
+    .filters {
+        width: 28%;
+    }
+}
